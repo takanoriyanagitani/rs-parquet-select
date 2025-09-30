@@ -1,0 +1,8 @@
+
+	  message spark_schema {
+		  REQUIRED BINARY timestamp(UTF8);
+		  REQUIRED BINARY severity(UTF8);
+		  REQUIRED BINARY status(UTF8);
+		  REQUIRED BINARY body(UTF8);
+	  }
+	
